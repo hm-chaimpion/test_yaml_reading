@@ -1,0 +1,30 @@
+# conducting_ai_framework.yaml
+framework:
+  name: "Conducting AI"
+  creator: "Benjamin Fowler"
+  active: true
+  version: 1.0
+  
+hierarchy:
+  levels:
+    - name: "Chief AI Agent"
+      count: 1
+      color: purple
+      is_human: false
+    - name: "AI Head of Department"
+      count: 10
+      color: purple
+      is_human: false
+    - name: "Human Heads"
+      count: 10
+      color: null
+      is_human: true
+
+# This is a comment - should be grey
+departments:
+  - name: "Sales & Admin"
+    color: blue
+    agent_count: 15
+  - name: "Marketing"
+    color: green
+    agent_count: 20
