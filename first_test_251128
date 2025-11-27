@@ -1,0 +1,25 @@
+# conducting_ai_framework.yaml
+framework:
+  name: "Conducting AI"
+  creator: "Benjamin Fowler"
+  
+hierarchy:
+  levels:
+    - name: "Chief AI Agent"
+      count: 1
+      color: purple
+    - name: "AI Head of Department"
+      count: 10
+      color: purple
+    - name: "AI Managers"
+      count: 20
+      color: purple
+    - name: "Individual AI Agents"
+      count: "150+"
+      color: purple
+
+departments:
+  - name: "Sales & Admin"
+    color: blue
+  - name: "Marketing"
+    color: green
